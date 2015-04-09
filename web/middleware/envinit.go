@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/zenazn/goji/web"
+	"github.com/lavab/goji/web"
 )
 
 type envInit struct {

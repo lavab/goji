@@ -8,8 +8,8 @@ Example:
 		"fmt"
 		"net/http"
 
-		"github.com/zenazn/goji"
-		"github.com/zenazn/goji/web"
+		"github.com/lavab/goji"
+		"github.com/lavab/goji/web"
 	)
 
 	func hello(c web.C, w http.ResponseWriter, r *http.Request) {

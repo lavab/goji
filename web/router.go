@@ -66,7 +66,7 @@ func (h netHTTPWrap) ServeHTTPC(c C, w http.ResponseWriter, r *http.Request) {
 	h.Handler.ServeHTTP(w, r)
 }
 
-const unknownHandler = `Unknown handler type %T. See http://godoc.org/github.com/zenazn/goji/web#HandlerType for a list of acceptable types.`
+const unknownHandler = `Unknown handler type %T. See http://godoc.org/github.com/lavab/goji/web#HandlerType for a list of acceptable types.`
 
 func parseHandler(h interface{}) Handler {
 	switch f := h.(type) {

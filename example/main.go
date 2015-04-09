@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/goji/param"
-	"github.com/zenazn/goji"
-	"github.com/zenazn/goji/web"
-	"github.com/zenazn/goji/web/middleware"
+	"github.com/lavab/goji"
+	"github.com/lavab/goji/web"
+	"github.com/lavab/goji/web/middleware"
 )
 
 // Note: the code below cuts a lot of corners to make the example app simple.

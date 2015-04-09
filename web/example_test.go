@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/zenazn/goji/web"
-	"github.com/zenazn/goji/web/middleware"
+	"github.com/lavab/goji/web"
+	"github.com/lavab/goji/web/middleware"
 )
 
 func Example() {

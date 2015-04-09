@@ -24,7 +24,6 @@ calling net.Listen() the old-fashioned way.
 package bind
 
 import (
-	"flag"
 	"fmt"
 	"log"
 	"net"
@@ -32,6 +31,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/namsral/flag"
 )
 
 var bind string

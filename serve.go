@@ -3,13 +3,13 @@
 package goji
 
 import (
-	"flag"
 	"log"
 	"net/http"
 	"time"
 
-	"github.com/zenazn/goji/bind"
-	"github.com/zenazn/goji/graceful"
+	"github.com/lavab/goji/bind"
+	"github.com/lavab/goji/graceful"
+	"github.com/namsral/flag"
 )
 
 func init() {

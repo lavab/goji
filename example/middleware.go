@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/zenazn/goji/web"
+	"github.com/lavab/goji/web"
 )
 
 // PlainText sets the content-type of responses to text/plain.
